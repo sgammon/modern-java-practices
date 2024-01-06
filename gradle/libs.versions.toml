@@ -1,5 +1,5 @@
 [versions]
-assertj = "3.24.2"
+assertj = "3.25.1"
 buildscan = "3.16.1"
 buildless = "1.0.0-rc2"
 checkstyle = "10.12.4"
