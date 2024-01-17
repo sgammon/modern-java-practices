@@ -98,7 +98,7 @@ jobs:
       - name: "Setup: Validate Batect Scripts"
         uses: batect/batect-wrapper-validation-action@db5c00345a3b15b7e6b6761dda3bef59aa02c23b # v0.4.0
       - name: "Setup: Caches (Batect)"
-        uses: actions/cache@0769f2e44373d687c841be56f618397100943c5e # master
+        uses: actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2 # master
         env:
           cache-name: batect-cache
         with:
@@ -109,7 +109,7 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
       - name: "Setup: Caches (Gradle)"
-        uses: actions/cache@704facf57e6136b1bc63b828d79edcd491f0ee84 # v3.3.2
+        uses: actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2 # v4.0.0
         env:
           cache-name: caches-gradle
         with:
